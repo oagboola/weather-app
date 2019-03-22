@@ -4,7 +4,7 @@
   "description": "Checks the weather and time of a location",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon -r ./loadenv.js --exec babel-node index.js",
+    "start": "babel-node -r ./loadenv.js index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
